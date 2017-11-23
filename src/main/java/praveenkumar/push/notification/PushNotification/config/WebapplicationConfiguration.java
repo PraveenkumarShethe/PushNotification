@@ -23,8 +23,8 @@ import java.io.IOException;
  * Created by Praveenkumar on 3/6/2017.
  */
 @Configuration
-@ComponentScan(basePackages = "com.praveen.shethe")
-@EnableJpaRepositories("com.praveen.shethe.repository")
+@ComponentScan(basePackages = "praveenkumar.push.notification.PushNotification")
+@EnableJpaRepositories("praveenkumar.push.notification.PushNotification.repository")
 @EnableWebMvc
 @ConfigurationProperties(value = "classpath:/application.yml")
 public class WebapplicationConfiguration {
