@@ -1,0 +1,36 @@
+spring:
+  profiles:
+    active: common,local
+  default: common,local
+---
+#Properties for the "common" profile, Which will contain properties common to all profiles
+spring:
+  profiles: common
+server:
+  contextPath: /pushnotification
+  port: 9000
+token :
+  secret : 9SyECk96oDsTmXfogIiuyhtTKD/8FpnojlYSUJT5U9I/FGVmBz5oskmjOR8cbXTvoPjX+Pq/T/b1PqpHX0lYm0oCBjXWICA==
+---
+#Properties for the "local" profile, to be used by developers on their laptop
+spring:
+  profiles: local
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    driverClassName: org.postgresql.Driver
+    username: PNUser
+    password: password
+    url: jdbc:postgresql://127.0.0.1:5432/libraryDB
+logging:
+  file: pushnotification.log
+  level:
+    org.springframework: OFF
+    org.hibernate: OFF
+    com.praveen.shethe: OFF
+    b.c.e.u.UndertowEmbeddedServletContainer: OFF
+---

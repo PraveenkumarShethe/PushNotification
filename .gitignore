@@ -23,3 +23,12 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+out/production/classes/praveenkumar/push/notification/PushNotification/config/WebapplicationConfiguration\.class
+
+out/production/classes/praveenkumar/push/notification/PushNotification/config/MyWebAppInitializer\.class
+
+out/production/classes/praveenkumar/push/notification/PushNotification/PushNotificationApplication\.class
+
+out/production/resources/application\.yml
+
+gradle/wrapper/gradle-wrapper\.properties

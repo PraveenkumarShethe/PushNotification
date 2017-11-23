@@ -1,0 +1,6 @@
+2017-11-23 13:41:53.247  INFO 8696 --- [main] p.p.n.P.PushNotificationApplication      : Starting PushNotificationApplication on RZTL-naseer-721 with PID 8696 (/home/praveen/Desktop/PushNotification/out/production/classes started by praveen in /home/praveen/Desktop/PushNotification)
+2017-11-23 13:41:53.270  INFO 8696 --- [main] p.p.n.P.PushNotificationApplication      : The following profiles are active: common,local
+2017-11-23 13:41:57.628  INFO 8696 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-11-23 13:41:57.629  INFO 8696 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-11-23 13:41:58.008  INFO 8696 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/pushnotification]        : Initializing Spring embedded WebApplicationContext
+2017-11-23 13:41:58.490  INFO 8696 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]

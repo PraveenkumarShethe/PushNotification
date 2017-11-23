@@ -26,5 +26,7 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-web')
+	// https://mvnrepository.com/artifact/org.atmosphere.samples/atmosphere-jersey-pubsub
+	compile group: 'org.atmosphere.samples', name: 'atmosphere-jersey-pubsub', version: '2.4.8'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
