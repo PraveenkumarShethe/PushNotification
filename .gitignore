@@ -32,3 +32,5 @@ out/production/classes/praveenkumar/push/notification/PushNotification/PushNotif
 out/production/resources/application\.yml
 
 gradle/wrapper/gradle-wrapper\.properties
+
+pushnotification\.log

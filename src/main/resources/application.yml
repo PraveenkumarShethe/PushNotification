@@ -25,7 +25,7 @@ spring:
     driverClassName: org.postgresql.Driver
     username: PNUser
     password: password
-    url: jdbc:postgresql://127.0.0.1:5432/libraryDB
+    url: jdbc:postgresql://127.0.0.1:5432/PushNotificationDB
 logging:
   file: pushnotification.log
   level:
